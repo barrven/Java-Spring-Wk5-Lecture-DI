@@ -1,7 +1,9 @@
 package ca.gbc.comp3095.wk5lecturedi.controllers;
 
 import ca.gbc.comp3095.wk5lecturedi.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
 
     private final GreetingService greetingService;
